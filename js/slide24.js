@@ -7,12 +7,12 @@ function leap() {
 	}
 	var year = parseInt(input)
 	let leap = true;
-   	if((year % 4) != 0 || (year % 400) != 0) {
-   		leap = false;
-   	}
-   	if (leap) {
-   	    alert("Leap year");
-   	} else {
-   	    alert("Common year");
-   	}
+	if((year % 4) != 0 || (year % 400) != 0) {
+		leap = false;
+	}
+	if (leap) {
+		alert("Leap year");
+	} else {
+		alert("Common year");
+	}
 }
